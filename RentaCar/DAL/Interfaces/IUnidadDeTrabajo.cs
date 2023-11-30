@@ -8,6 +8,14 @@ namespace DAL.Interfaces
 {
     public interface IUnidadDeTrabajo : IDisposable
     {
+        IAutomovilDAL _automovilDAL {  get; }
+        ICategoriaDAL _categoriaDAL { get; }
+        IClienteDAL _clienteDAL { get; }
+        IEmpleadoDAL _empleadoDAL { get; }
+        IMantenimientoDAL _mantenimientoDal { get; }
+        ISedeDAL _sedeDAL { get; }
+        ISeguroDAL _seguroDAL { get; }
+        ITransaccionDAL _transaccionDAL { get; }
 
 
         bool Complete();
