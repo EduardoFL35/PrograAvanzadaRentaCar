@@ -2234,19 +2234,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eduar\\.nuget\\packages\\": {}
+    "C:\\Users\\JD Computer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\JD Computer\\Documents\\Proga Avanzada en web\\Proyecto\\RentaCar\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\Entities.csproj",
-      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
-      "outputPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\obj\\",
+      "projectPath": "C:\\Users\\JD Computer\\Documents\\Proga Avanzada en web\\Proyecto\\RentaCar\\Entities\\Entities.csproj",
+      "packagesPath": "C:\\Users\\JD Computer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JD Computer\\Documents\\Proga Avanzada en web\\Proyecto\\RentaCar\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JD Computer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2311,7 +2311,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
