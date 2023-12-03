@@ -16,7 +16,8 @@
 
   <ItemGroup>
     <Folder Include="Middleware\" />
-    <Folder Include="Services\" />
+    <Folder Include="Services\Implementations\" />
+    <Folder Include="Services\Interfaces\" />
   </ItemGroup>
 
 </Project>
