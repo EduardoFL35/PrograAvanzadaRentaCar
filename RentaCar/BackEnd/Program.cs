@@ -3,8 +3,24 @@ using BackEnd.Services.Interfaces;
 using DAL.Implementations;
 using DAL.Interfaces;
 using Entities.Entities;
+using Entities.Utilities;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+#region ConnString
+//Configuración específica para traer un string de conexión
+string connString = builder
+                            .Configuration
+                            .GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<RENTCARContext>(options =>
+                        options.UseSqlServer(
+                            connString
+                            ));
+
+Util.ConnectionString = connString;
+#endregion
 
 // Add services to the container.
 
