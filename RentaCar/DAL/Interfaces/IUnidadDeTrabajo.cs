@@ -12,7 +12,7 @@ namespace DAL.Interfaces
         ICategoriaDAL _categoriaDAL { get; }
         IClienteDAL _clienteDAL { get; }
         IEmpleadoDAL _empleadoDAL { get; }
-        IMantenimientoDAL _mantenimientoDal { get; }
+        IMantenimientoDAL _mantenimientoDAL { get; }
         ISedeDAL _sedeDAL { get; }
         ISeguroDAL _seguroDAL { get; }
         ITransaccionDAL _transaccionDAL { get; }

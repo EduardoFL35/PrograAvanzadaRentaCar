@@ -14,7 +14,7 @@ namespace DAL.Implementations
         public ICategoriaDAL _categoriaDAL { get; }
         public IClienteDAL _clienteDAL { get; }
         public IEmpleadoDAL _empleadoDAL { get; }
-        public IMantenimientoDAL _mantenimientoDal { get; }
+        public IMantenimientoDAL _mantenimientoDAL { get; }
         public ISedeDAL _sedeDAL { get; }
         public ISeguroDAL _seguroDAL { get; }
         public ITransaccionDAL _transaccionDAL { get; }
@@ -36,7 +36,7 @@ namespace DAL.Implementations
             _categoriaDAL = categoriaDAL;
             _clienteDAL = clienteDAl;
             _empleadoDAL = empleadoDAl;
-            _mantenimientoDal = mantenimientoDAl;
+            _mantenimientoDAL = mantenimientoDAl;
             _sedeDAL = sedeDAL;
             _seguroDAL = seguroDAl;
             _transaccionDAL = transaccionDAl;
