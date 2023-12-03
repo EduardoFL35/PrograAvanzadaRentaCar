@@ -43,7 +43,7 @@ namespace BackEnd.Services.Implementations
             return sedes;
         }
 
-        public bool UpdateSedeo(Sede sede)
+        public bool UpdateSede(Sede sede)
         {
             bool resultado = _unidadDeTrabajo._sedeDAL.Update(sede);
             _unidadDeTrabajo.Complete();

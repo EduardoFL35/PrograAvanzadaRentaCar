@@ -13,14 +13,14 @@ namespace BackEnd.Services.Implementations
             _unidadDeTrabajo = unidadDeTrabajo;
         }
 
-        public bool AddAutomovile(Automovile automovile)
+        public bool AddAutomovil(Automovile automovile)
         {
             bool resultado = _unidadDeTrabajo._automovilDAL.Add(automovile);  
             _unidadDeTrabajo.Complete();
             return resultado;
         }
 
-        public bool DeleteAutomovile(Automovile automovile)
+        public bool DeleteAutomovil(Automovile automovile)
         {
             bool resultado = _unidadDeTrabajo._automovilDAL.Remove(automovile); 
             _unidadDeTrabajo.Complete();
@@ -41,7 +41,7 @@ namespace BackEnd.Services.Implementations
             return automovil;
         }
 
-        public bool UpdateAutomovile(Automovile automovile)
+        public bool UpdateAutomovil(Automovile automovile)
         {
             bool resultado = _unidadDeTrabajo._automovilDAL.Update(automovile);
             _unidadDeTrabajo.Complete();

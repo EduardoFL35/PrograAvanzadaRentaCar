@@ -1,6 +1,6 @@
 ﻿namespace BackEnd.Models
 {
-    public class Transaccion
+    public class TransaccionModel
     {
         public int Id { get; set; }
         public DateTime FechaInicio { get; set; }

@@ -6,8 +6,8 @@ namespace BackEnd.Services.Interfaces
     {
         Task<IEnumerable<Automovile>> GetAutomovilesAsync();
         Automovile GetById(int id);
-        bool AddAutomovile(Automovile automovile);
-        bool UpdateAutomovile(Automovile automovile);
-        bool DeleteAutomovile(Automovile automovile);
+        bool AddAutomovil(Automovile automovile);
+        bool UpdateAutomovil(Automovile automovile);
+        bool DeleteAutomovil(Automovile automovile);
     }
 }

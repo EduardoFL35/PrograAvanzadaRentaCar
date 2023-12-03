@@ -1,6 +1,6 @@
 ﻿namespace BackEnd.Models
 {
-    public class Automovil
+    public class AutomovilModel
     {
         public int Id { get; set; }
         public string Marca { get; set; } = null!;

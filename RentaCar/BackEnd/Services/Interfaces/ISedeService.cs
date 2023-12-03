@@ -7,7 +7,7 @@ namespace BackEnd.Services.Interfaces
         Task<IEnumerable<Sede>> GetSedesAsync();
         Sede GetById(int id);
         bool AddSede(Sede sede);
-        bool UpdateSedeo(Sede sede);
+        bool UpdateSede(Sede sede);
         bool DeleteSede(Sede sede);
     }
 }

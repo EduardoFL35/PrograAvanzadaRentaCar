@@ -1,6 +1,6 @@
 ﻿namespace BackEnd.Models
 {
-    public class Mantenimiento
+    public class MantenimientoModel
     {
         public int Id { get; set; }
         public string TipoMantenimiento { get; set; } = null!;

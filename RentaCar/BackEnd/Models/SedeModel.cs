@@ -1,6 +1,6 @@
 ﻿namespace BackEnd.Models
 {
-    public class Sede
+    public class SedeModel
     {
         public int Id { get; set; }
         public string NombreUbi { get; set; } = null!;
