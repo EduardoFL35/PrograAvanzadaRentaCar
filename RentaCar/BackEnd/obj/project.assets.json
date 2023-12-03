@@ -959,6 +959,19 @@
           }
         }
       },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2627,6 +2640,11 @@
         "version.txt"
       ]
     },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
     "Entities/1.0.0": {
       "type": "project",
       "path": "../Entities/Entities.csproj",
@@ -2635,6 +2653,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DAL >= 1.0.0",
       "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.22",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -2667,6 +2686,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\DAL\\DAL.csproj"
+            },
             "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\Entities.csproj": {
               "projectPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\Entities.csproj"
             }

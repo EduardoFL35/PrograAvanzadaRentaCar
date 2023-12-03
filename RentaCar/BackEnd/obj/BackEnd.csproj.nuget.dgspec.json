@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\DAL\\DAL.csproj"
+              },
               "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\Entities.csproj": {
                 "projectPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\Entities.csproj"
               }
@@ -70,6 +73,65 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Fidelitas\\VII Cuatri\\Programación avanzada en Web\\Proyecto\\PrograAvanzadaRentaCar\\RentaCar\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
